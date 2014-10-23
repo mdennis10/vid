@@ -1,0 +1,379 @@
+@CHARSET "ISO-8859-1";
+ @font-face{
+    src:url('../fonts/Lato-Reg.ttf');
+    font-family: lato;
+}
+@font-face{
+    src:url('../fonts/Lato-Lig.ttf');
+    font-family: lato-lig;
+}
+@font-face{
+    src:url('../fonts/Lato-Bla.ttf');
+    font-family: lato-bla;
+}
+@font-face{
+    src:url('../fonts/Cantarell-Regular.ttf');
+    font-family: cantarell;
+}
+h1,h2,h3{
+  font-family: lato-lig;
+  color: gray;
+  padding:0;
+}
+	
+body{
+	background: #E5E5E5;
+}
+
+.container{
+  background: #F7F5F6;
+  box-shadow: 0px 4px 5px #c2c2c2;
+  -webkit-box-shadow: 0px 4px 5px #c2c2c2;
+  -moz-box-shadow: 0px 4px 5px #c2c2c2;
+  border: 1px solid silver;
+  border-top:none;
+  height: 100%;
+}
+.right-sec{
+	overflow: block;
+	margin: 0;
+	padding:0;
+	padding-bottom:50px;
+	
+}
+.left-sec{
+	background: #2A2C3C;
+	height:1000px;
+}
+.controls-wrapper{
+  width: 100%;
+  box-shadow: 0px 0px 2px black;
+  color: #FFF;
+  font-family: lato;
+}
+.list-inline{
+	width:1200px;
+	margin-left:50px;
+}
+
+.anchor-control{
+	background: #272727;
+	border-top:1px solid black;
+	height: 60px;
+}
+.pagination{
+	margin-left: 330px;
+}
+#search{
+  background: #1D1D1D;
+  border: 1px solid #000;
+  width:600px;
+  margin-top: 10px;
+  font-size: 15px;
+  font-family: lato;
+  font-weight: bold;
+}
+.glyphicon-search{
+	background-image: url('../img/toggle-view.png');	
+}
+.result-vid-item{
+  margin-right: 20px;
+  margin-bottom:40px;
+  width: 260px;
+  height: 146px;
+}
+.vid-item{
+  margin-right: 10px;
+  margin-bottom:10px;
+}
+.trending-vid{
+  width:200px;
+  height: 113px;
+}
+.feature-vid{
+	width:310px;
+	height: 233px;
+}
+.vid-label{
+	margin:0;
+	padding:0;
+	margin-left:10px;
+	margin-top:5px;
+	color:#C6C9DD;
+	font-family: cantarell;
+	font-size:12px;
+	//font-weight:700;
+	-o-text-overflow: ellipsis;   /* Opera */
+    text-overflow:    ellipsis;   /* IE, Safari (WebKit) */
+    overflow:hidden;              /* don't show excess chars */
+    white-space:nowrap;  
+    width: 190px;
+}
+.vid-label-lg{
+	margin:0;
+	padding:0;
+	margin-left:10px;
+	margin-top:10px;
+	color:#C6C9DD;
+	font-family: cantarell;
+	-o-text-overflow: ellipsis;   /* Opera */
+    text-overflow:    ellipsis;   /* IE, Safari (WebKit) */
+    overflow:hidden;              /* don't show excess chars */
+    white-space:nowrap;  
+    width:250px;
+}
+ .vid-item-content{
+	position:relative;
+	width: 100%;
+}
+.genre-row{
+	padding-left: 30px;
+	width:884px;
+}
+.vid-item-info{
+   	position: absolute;
+	top: 145px;
+	width: 100%;
+	height: 90px;
+	background: #2A2C3C;
+	background: black;	
+}
+.vid-item-info-md{
+	position: absolute;
+	top: 90px;
+	width: 100%;
+	height: 60px;
+	background: #2A2C3C;
+	background: black;
+}
+.vid-item-info-sm{
+  	position: absolute;
+	top: 75px;
+	height: 40px;
+	width: 100%;
+	background: #2A2C3C;
+	background: black;	
+}
+.vid-item-color{
+	background: black;	
+}
+.genre{
+  padding:20px;
+  padding-left: 0;
+  padding-right:0;
+  height:330px;
+  border-bottom: 1px solid #d3d1d1;
+}
+.videos{
+	margin-left: 75px;
+	width: 810px;
+	height: 240px;
+}
+.heading{
+  margin-left: 75px;
+  width: 700px;
+  margin-top: -20px;
+}
+.heading strong{
+  color:#9E005D;
+}
+.see-all{
+  margin-top: 10px;
+}
+
+.activity-stream{
+  overflow-y: scroll;
+  height: 450px;
+}
+.activity-stream-heading{
+  background: #212330;
+  height: 70px;
+}
+.activity-stream-heading a{
+  text-decoration:none; 
+}
+.activity-stream-heading h5{
+  width:50%; 
+  margin-left: 5px;
+  margin-top: 18px;
+  color: whitesmoke;
+  font-family: lato;
+}
+.activities{
+	padding-left: 20px;
+	height: 300px;
+	overflow: block;
+}
+.activities h3{
+	margin:0;
+	margin-top: 5px;
+}
+.activity-item{
+  padding-top: 20px;
+  padding-left: 20px;
+}
+.activity-item a{
+	text-decoration: none;
+	text-align: top;
+}
+.activity-item li{
+  vertical-align: top;
+}
+.activity-item h5{
+  margin-left: 50px;
+  margin-top: -5px;
+  font-family: lato;
+  color: #C6C9DD;
+}
+.activity-item h6{
+	margin-left: 51px;
+	margin-top: -5px;
+	color: #C6C9DD;
+	font-family: cantarell;
+	font-size: 10px;
+	font-weight: bold;
+}
+.activity-item p{
+  font-family: arial;
+  color: #6F728D;
+  font-size: 11px;
+  margin-top: -3px;
+  margin-left: 51px;
+  width: 160px;
+}
+.search-content{
+	height:140px;
+	background: black;
+	padding-top:10px;
+	//background: rgb(0, 0, 0);
+	//background: rgba(0, 0, 0, 0.7);
+	border-top:1px solid black;
+	display: none;
+}
+.search-vid{
+	margin-bottom:0;
+	margin-right:15px;
+	margin-left: 15px
+}
+.user-name{
+  font-family: lato;
+  font-weight: bold;
+
+}
+.user-img{
+  width: 50px;
+  height: 50px;
+  margin-left: 10px;
+  margin-top: 10px;
+}
+.user-img-sm{
+  width: 40px;
+  height: 40px;
+}
+#player{
+	height: 440px;
+	width: 810px;
+	background: black;
+	margin-top: 10px;
+	box-shadow: 0px 0px 10px gray;
+	border: 1px solid silver;
+}
+.player-vid-info{
+	width:740px;
+	margin-left: 30px;
+	height:70px;
+	background: #2A2C3C;
+}
+.song-name{
+	color:white;
+	font-family:lato-lig;
+	font-weight:lighter;
+	padding-top:5px;
+	padding-left: 15px;
+}
+.player-action{
+	color: #C6C9DD;
+	font-family: cantarell;
+	font-size: 12px;
+	margin-top: 30px;
+	margin-right: 50px;
+}
+.player-action li{
+	border:2px solid #C6C9DD;
+	text-align:center;
+	margin-right:10px;
+	border-radius: 10px 10px 10px 10px;
+	cursor: pointer;
+}
+.related-videos{
+	width: 730px;
+	padding-top: 30px;
+	margin-left: 55px;
+}
+.genre a.prev{
+	display: block;
+	position: absolute;
+	left: 0;
+	background: url('../img/util-image.png') no-repeat;
+	background-repeat: no-repeat;
+	background-position: 0px -250px;
+	height: 64px;
+	width: 54px;
+	margin-top: -150px;
+	display:none;
+}
+.genre a.prev:hover{
+	background-position: 0px -35px;
+}
+.genre a.next{
+	display: block;
+	position: absolute;
+	right: 0;
+	background: url('../img/util-image.png') no-repeat;
+	background-repeat: no-repeat;
+	background-position: 0px -620px;
+	height: 64px;
+	width: 54px;
+	margin-top: -150px;
+}
+.loading{
+	background-image: url('http://static.huluim.com/huluguru/icon-spinner-gray-a7c471b132a4e645c2990890780327e2.gif');
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	margin: -11px 0 0 -11px;
+	height: 22px;
+	width: 22px;
+}
+.genre a.next:hover{
+	background-position: 0px -420px;
+}
+.play-wrapper{
+	padding-left: 30px;
+}
+.videoInfo{
+	width: 820px;
+	height:50px;
+	margin-top: 10px;
+}
+.videoInfo li {
+	padding-top: 15px;
+	height:50px;
+}
+.videoInfo a{
+	height:50px;
+	color:white;
+	text-decoration: none;
+}
+.related-vid-wrapper{
+	margin-top:30px;
+	width: 820px;
+	height:350px;
+}
+.vid-info-tab{
+	background: #ED6C4E;
+	background: #E55A3B;
+	width: 400px;
+	height: 50px;
+	margin-right: 10px;
+}

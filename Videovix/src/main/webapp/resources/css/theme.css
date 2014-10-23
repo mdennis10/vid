@@ -1,0 +1,102 @@
+@CHARSET "UTF-8";
+@font-face{
+    src:url('../fonts/Lato-Reg.ttf');
+    font-family: lato;
+}
+@font-face{
+    src:url('../fonts/Lato-Lig.ttf');
+    font-family: lato-lig;
+}
+@font-face{
+    src:url('../fonts/Lato-Bla.ttf');
+    font-family: lato-bla;
+}
+@font-face{
+    src:url('../fonts/Cantarell-Regular.ttf');
+    font-family: cantarell;
+}
+.sidebar{
+	width:150px;
+	height:928px;
+	position: fixed;
+	top: 0;
+	left: 0;
+	display: block;
+	padding-top: 30px;
+	overflow-x: hidden;
+	overflow-y:auto;
+	background-color: black;
+	border-right: 1px solid #eee;	
+}
+.nav-sidebar li>a {
+	position: relative;
+	color:gray;
+	display: block;
+	padding: 6px 15px;
+	font-family: cantarell;
+}
+.sidebar-title{
+	color:silver;
+	margin-left:10px;
+	font-weight: bold;	
+	font-family: cantarell;
+}
+#active {
+	color:white;
+}
+#search{
+	border-radius: 15px 15px 15px 15px;
+	-moz-border-radius: 15px 15px 15px 15px;
+	-webkit-border-radius: 15px 15px 15px 15px;
+}
+.artist-name{
+	text-align: center;
+	padding:0;
+	margin-top:0;
+	color: #333;
+	font-size: 14px;
+	line-height: 20px;
+	font-family: cantarell;
+}
+
+.song-name{
+	color: #000;
+	font-size: 16px;
+	line-height: 20px;
+	font-weight: 500;
+	//font-weight: bold;
+	text-align:center;
+	padding:0;
+	margin-bottom:5px;
+	margin-top:0;
+	font-family: cantarell;
+}
+.page-header {
+	 //padding-bottom: 0; 
+	 margin-top: 20px;
+}
+.page-title{
+	margin:0;	
+}
+.video-wrapper{
+	background:black;
+	width: 940px;
+	height:370px;
+}
+.col-centered{
+    float: none;
+    margin: 0 auto;
+}
+.main {
+	padding-right: 40px;
+	padding-left: 40px;
+}
+footer { 
+    background-color:#272727;
+    position:fixed;
+    height:20px;
+    bottom: 0;
+	left: 0;
+	right: 0;
+	z-index: 1000;
+}
